@@ -8,8 +8,8 @@ to vs = cv2.VideoCapture(0) #this will use your own webcam
 
 #to start 
 
-virtualenv venv
-source venv/bin/activate
+virtualenv venv &&
+source venv/bin/activate &&
 pip install requirements.txt
 
 
